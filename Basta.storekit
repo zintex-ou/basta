@@ -1,0 +1,19 @@
+{
+  "identifier" : "basta-local",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : { "_applicationInternalID" : "", "_developerTeamID" : "", "_lastSynced" : 0 },
+  "subscriptionGroups" : [
+    {
+      "id" : "21000001",
+      "localizations" : [],
+      "name" : "Basta Pro",
+      "subscriptions" : [
+        { "adHocOffers" : [], "codeOffers" : [], "displayPrice" : "5.99", "familyShareable" : false, "groupNumber" : 1, "internalID" : "1001", "introductoryOffer" : null, "localizations" : [ { "description" : "Weekly", "displayName" : "Basta Weekly", "locale" : "en_US" } ], "productID" : "com.zintex.basta.weekly", "recurringSubscriptionPeriod" : "P1W", "referenceName" : "Weekly", "subscriptionGroupID" : "21000001", "type" : "RecurringSubscription" },
+        { "adHocOffers" : [], "codeOffers" : [], "displayPrice" : "49.99", "familyShareable" : false, "groupNumber" : 2, "internalID" : "1002", "introductoryOffer" : null, "localizations" : [ { "description" : "Yearly", "displayName" : "Basta Yearly", "locale" : "en_US" } ], "productID" : "com.zintex.basta.yearly", "recurringSubscriptionPeriod" : "P1Y", "referenceName" : "Yearly", "subscriptionGroupID" : "21000001", "type" : "RecurringSubscription" },
+        { "adHocOffers" : [], "codeOffers" : [], "displayPrice" : "29.99", "familyShareable" : false, "groupNumber" : 3, "internalID" : "1003", "introductoryOffer" : null, "localizations" : [ { "description" : "Yearly intro", "displayName" : "Basta Yearly", "locale" : "en_US" } ], "productID" : "com.zintex.basta.yearly.intro", "recurringSubscriptionPeriod" : "P1Y", "referenceName" : "Yearly Intro", "subscriptionGroupID" : "21000001", "type" : "RecurringSubscription" }
+      ]
+    }
+  ],
+  "version" : { "major" : 3, "minor" : 0 }
+}

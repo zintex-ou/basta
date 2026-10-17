@@ -1,0 +1,149 @@
+name: Basta
+options:
+  bundleIdPrefix: com.zintex
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.10"
+    DEVELOPMENT_TEAM: "$(DEVELOPMENT_TEAM)"
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    TARGETED_DEVICE_FAMILY: "1"
+    SWIFT_STRICT_CONCURRENCY: minimal
+
+targets:
+  Basta:
+    type: application
+    platform: iOS
+    sources:
+      - path: Basta
+      - path: Shared
+    entitlements:
+      path: Basta/Basta.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.com.zintex.basta
+    info:
+      path: Basta/Info.plist
+      properties:
+        CFBundleDisplayName: Basta
+        CFBundleName: Basta
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations: [en, es, it]
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIBackgroundModes: [location]
+        NSLocationWhenInUseUsageDescription: "Basta uses your location to turn focus modes on automatically when you arrive at a place you chose, such as work or the library."
+        NSLocationAlwaysAndWhenInUseUsageDescription: "Basta needs background location access so focus modes can switch on and off automatically when you enter or leave the places you chose. Your location never leaves your device."
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zintex.basta
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    dependencies:
+      - target: BastaMonitor
+      - target: BastaShield
+      - target: BastaReport
+      - sdk: FamilyControls.framework
+      - sdk: ManagedSettings.framework
+      - sdk: DeviceActivity.framework
+      - sdk: StoreKit.framework
+      - sdk: CoreLocation.framework
+      - sdk: MapKit.framework
+
+  BastaMonitor:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: BastaMonitor
+      - path: Shared
+    entitlements:
+      path: BastaMonitor/BastaMonitor.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.com.zintex.basta
+    info:
+      path: BastaMonitor/Info.plist
+      properties:
+        CFBundleDisplayName: Basta Monitor
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.deviceactivity.monitor-extension
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).BastaMonitorExtension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zintex.basta.monitor
+    dependencies:
+      - sdk: ManagedSettings.framework
+      - sdk: DeviceActivity.framework
+      - sdk: FamilyControls.framework
+
+  BastaShield:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: BastaShield
+      - path: Shared
+    entitlements:
+      path: BastaShield/BastaShield.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.com.zintex.basta
+    info:
+      path: BastaShield/Info.plist
+      properties:
+        CFBundleDisplayName: Basta Shield
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.ManagedSettingsUI.shield-configuration-service
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).BastaShieldExtension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zintex.basta.shield
+    dependencies:
+      - sdk: ManagedSettings.framework
+      - sdk: ManagedSettingsUI.framework
+      - sdk: FamilyControls.framework
+
+  BastaReport:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: BastaReport
+    entitlements:
+      path: BastaReport/BastaReport.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.com.zintex.basta
+    info:
+      path: BastaReport/Info.plist
+      properties:
+        CFBundleDisplayName: Basta Report
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.deviceactivityui.report-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.zintex.basta.report
+    dependencies:
+      - sdk: DeviceActivity.framework
+      - sdk: FamilyControls.framework
+      - sdk: SwiftUI.framework
+
+schemes:
+  Basta:
+    build:
+      targets:
+        Basta: all
+    run:
+      config: Debug
+    archive:
+      config: Release

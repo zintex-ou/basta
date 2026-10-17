@@ -1,0 +1,36 @@
+workflows:
+  ios-testflight:
+    name: Basta → TestFlight
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    integrations:
+      app_store_connect: zintex-asc        # ім'я інтеграції ASC у Codemagic Teams → Integrations
+    environment:
+      xcode: latest
+      vars:
+        BUNDLE_ID: "com.zintex.basta"
+        XCODE_SCHEME: "Basta"
+        APP_STORE_APPLE_ID: "0000000000"    # Apple ID апки з App Store Connect після створення запису
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.zintex.basta
+    scripts:
+      - name: Install XcodeGen
+        script: brew install xcodegen
+      - name: Generate Xcode project
+        script: xcodegen generate
+      - name: Apply signing to all targets
+        script: xcode-project use-profiles
+      - name: Bump build number
+        script: |
+          BUILD=$(($(app-store-connect get-latest-testflight-build-number "$APP_STORE_APPLE_ID") + 1))
+          agvtool new-version -all "$BUILD"
+      - name: Build IPA
+        script: xcode-project build-ipa --project "Basta.xcodeproj" --scheme "$XCODE_SCHEME"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true

@@ -1,0 +1,28 @@
+{
+  "sourceLanguage": "en",
+  "version": "1.0",
+  "strings": {
+    "report.today": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "screen time today"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "de pantalla hoy"
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "di schermo oggi"
+          }
+        }
+      }
+    }
+  }
+}
