@@ -12,8 +12,13 @@ workflows:
         XCODE_SCHEME: "Basta"
         APP_STORE_APPLE_ID: "6824057805"
       ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.zintex.basta
+        provisioning_profiles:
+          - basta_app
+          - basta_monitor
+          - basta_shield
+          - basta_report
+        certificates:
+          - Resetbet Dis
     scripts:
       - name: Install XcodeGen
         script: brew install xcodegen
