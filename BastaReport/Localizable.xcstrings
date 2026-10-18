@@ -21,6 +21,18 @@
             "state": "translated",
             "value": "di schermo oggi"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildschirmzeit heute"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "de temps d'écran aujourd'hui"
+          }
         }
       }
     }

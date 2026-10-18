@@ -37,9 +37,9 @@ struct PaywallView: View {
 
             HStack {
                 SecondaryButton(title: "pw.restore") { Task { await purchases.restore() } }
-                Link("pw.terms", destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!)
+                Link("pw.terms", destination: URL(string: "https://zintex-ou.github.io/basta-legal/terms.html")!)
                     .font(.subheadline).foregroundStyle(Theme.textDim).frame(maxWidth: .infinity)
-                Link("pw.privacy", destination: URL(string: "https://basta.app/privacy")!)
+                Link("pw.privacy", destination: URL(string: "https://zintex-ou.github.io/basta-legal/privacy.html")!)
                     .font(.subheadline).foregroundStyle(Theme.textDim).frame(maxWidth: .infinity)
             }
             Text("pw.legal").font(.caption2).foregroundStyle(Theme.textDim.opacity(0.7))

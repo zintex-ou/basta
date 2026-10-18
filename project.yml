@@ -36,7 +36,7 @@ targets:
         CFBundleDisplayName: Basta
         CFBundleName: Basta
         CFBundleDevelopmentRegion: en
-        CFBundleLocalizations: [en, es, it]
+        CFBundleLocalizations: [en, es, it, de, fr]
         UILaunchScreen: {}
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
         UIRequiresFullScreen: true

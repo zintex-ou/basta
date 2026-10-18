@@ -21,6 +21,18 @@
             "state": "translated",
             "value": "Basta."
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basta."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basta."
+          }
         }
       }
     },
@@ -42,6 +54,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Questa app è bloccata adesso. L'hai deciso tu."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese App ist gerade gesperrt. Du hast es so entschieden."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cette app est bloquée pour l'instant. C'est toi qui l'as décidé."
           }
         }
       }
@@ -65,6 +89,18 @@
             "state": "translated",
             "value": "Modalità rigida attiva. Nessuna via d'uscita fino alla fine."
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strenger Modus aktiv. Kein Ausweg, bis die Session endet."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode strict actif. Impossible d'en sortir avant la fin de la session."
+          }
         }
       }
     },
@@ -86,6 +122,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ok"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
           }
         }
       }

@@ -21,6 +21,18 @@
             "state": "translated",
             "value": "Continua"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weiter"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuer"
+          }
         }
       }
     },
@@ -42,6 +54,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Inizia"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los geht's"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Commencer"
           }
         }
       }
@@ -65,6 +89,18 @@
             "state": "translated",
             "value": "Basta scrollare."
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schluss mit Scrollen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop au scroll."
+          }
         }
       }
     },
@@ -86,6 +122,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Perdi ore al giorno in app che non volevi nemmeno aprire. Basta le blocca quando ti serve concentrazione e ti restituisce il tuo tempo."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du verlierst täglich Stunden an Apps, die du nicht mal öffnen wolltest. Basta sperrt sie, wenn du Fokus brauchst – und gibt dir deine Zeit zurück."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu perds des heures chaque jour dans des apps que tu ne voulais même pas ouvrir. Basta les bloque quand tu as besoin de te concentrer – et te rend ton temps."
           }
         }
       }
@@ -109,6 +157,18 @@
             "state": "translated",
             "value": "Come funziona"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "So funktioniert's"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment ça marche"
+          }
         }
       }
     },
@@ -130,6 +190,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Blocca le app a orari: lavoro, sonno, studio."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps nach Zeitplan sperren – Arbeit, Schlaf, Lernen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bloque des apps selon un horaire – travail, sommeil, études."
           }
         }
       }
@@ -153,6 +225,18 @@
             "state": "translated",
             "value": "Blocca le app automaticamente quando arrivi in un luogo."
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps automatisch sperren, wenn du irgendwo ankommst."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bloque des apps automatiquement quand tu arrives quelque part."
+          }
         }
       }
     },
@@ -174,6 +258,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Modalità rigida: nessuna via d'uscita fino alla fine."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strenger Modus: kein Ausweg, bis die Session endet."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode strict : impossible d'en sortir avant la fin de la session."
           }
         }
       }
@@ -197,6 +293,18 @@
             "state": "translated",
             "value": "Un tocco per 15, 30 o 60 minuti di concentrazione."
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ein Tipp für 15, 30 oder 60 Minuten Fokus."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un toucher pour 15, 30 ou 60 minutes de concentration."
+          }
         }
       }
     },
@@ -218,6 +326,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Consenti Tempo di utilizzo"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildschirmzeit erlauben"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autoriser Temps d'écran"
           }
         }
       }
@@ -241,6 +361,18 @@
             "state": "translated",
             "value": "Basta usa Tempo di utilizzo di Apple per bloccare le app che scegli. Nient'altro."
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basta nutzt Apples Bildschirmzeit, um die Apps zu sperren, die du wählst. Sonst nichts."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basta utilise Temps d'écran d'Apple pour bloquer les apps que tu choisis. Rien d'autre."
+          }
         }
       }
     },
@@ -262,6 +394,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tutto resta sul tuo iPhone. Non vediamo mai quali app usi."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alles bleibt auf deinem iPhone. Wir sehen nie, welche Apps du nutzt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tout reste sur ton iPhone. Nous ne voyons jamais quelles apps tu utilises."
           }
         }
       }
@@ -285,6 +429,18 @@
             "state": "translated",
             "value": "Consenti"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erlauben"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autoriser"
+          }
         }
       }
     },
@@ -306,6 +462,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cosa ti distrae?"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Was lenkt dich ab?"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qu'est-ce qui te distrait ?"
           }
         }
       }
@@ -329,6 +497,18 @@
             "state": "translated",
             "value": "Scegli le app che ti rubano tempo. Puoi cambiarle quando vuoi."
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle die Apps, die deine Zeit fressen. Du kannst das jederzeit ändern."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisis les apps qui te volent du temps. Tu peux changer ça à tout moment."
+          }
         }
       }
     },
@@ -350,6 +530,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Scegli le app"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps wählen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir des apps"
           }
         }
       }
@@ -373,6 +565,18 @@
             "state": "translated",
             "value": "%lld selezionate"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ausgewählt"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld sélectionnées"
+          }
         }
       }
     },
@@ -391,6 +595,18 @@
           }
         },
         "it": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fokus"
+          }
+        },
+        "fr": {
           "stringUnit": {
             "state": "translated",
             "value": "Focus"
@@ -417,6 +633,18 @@
             "state": "translated",
             "value": "Riprenditi il tuo tempo"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hol dir deine Zeit zurück"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reprends ton temps"
+          }
         }
       }
     },
@@ -438,6 +666,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chi usa Basta dimezza il tempo di schermo nella prima settimana."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basta-Nutzer halbieren ihre Bildschirmzeit in der ersten Woche."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Les membres Basta divisent leur temps d'écran par deux dès la première semaine."
           }
         }
       }
@@ -461,6 +701,18 @@
             "state": "translated",
             "value": "Modalità focus illimitate"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unbegrenzte Fokus-Modi"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modes focus illimités"
+          }
         }
       }
     },
@@ -482,6 +734,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Orari e attivazione per luogo"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zeitpläne und Orts-Auslöser"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horaires et déclenchement par lieu"
           }
         }
       }
@@ -505,6 +769,18 @@
             "state": "translated",
             "value": "Modalità rigida senza scappatoie"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strenger Modus ohne Schlupflöcher"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode strict sans échappatoire"
+          }
         }
       }
     },
@@ -526,6 +802,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Report giornaliero del tempo di schermo"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Täglicher Bildschirmzeit-Bericht"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rapport quotidien de temps d'écran"
           }
         }
       }
@@ -549,6 +837,18 @@
             "state": "translated",
             "value": "Annuale"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jährlich"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuel"
+          }
         }
       }
     },
@@ -570,6 +870,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Settimanale"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wöchentlich"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hebdomadaire"
           }
         }
       }
@@ -593,6 +905,18 @@
             "state": "translated",
             "value": "PIÙ CONVENIENTE"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BESTER PREIS"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MEILLEUR PRIX"
+          }
         }
       }
     },
@@ -614,6 +938,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "/ settimana"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/ Woche"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/ semaine"
           }
         }
       }
@@ -637,6 +973,18 @@
             "state": "translated",
             "value": "/ mese"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/ Monat"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/ mois"
+          }
         }
       }
     },
@@ -658,6 +1006,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "/ anno"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/ Jahr"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/ an"
           }
         }
       }
@@ -681,6 +1041,18 @@
             "state": "translated",
             "value": "Continua"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weiter"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continuer"
+          }
         }
       }
     },
@@ -702,6 +1074,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ripristina"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wiederherstellen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restaurer"
           }
         }
       }
@@ -725,6 +1109,18 @@
             "state": "translated",
             "value": "Termini"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AGB"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conditions"
+          }
         }
       }
     },
@@ -746,6 +1142,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Privacy"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Datenschutz"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confidentialité"
           }
         }
       }
@@ -769,6 +1177,18 @@
             "state": "translated",
             "value": "L'abbonamento si rinnova automaticamente salvo disdetta almeno 24 ore prima della fine del periodo. Gestiscilo nelle impostazioni dell'App Store."
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Abo verlängert sich automatisch, sofern es nicht mindestens 24 Stunden vor Ende des Zeitraums gekündigt wird. Verwaltung in den App Store-Einstellungen."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "L'abonnement se renouvelle automatiquement sauf résiliation au moins 24 heures avant la fin de la période. Gère-le dans les réglages de l'App Store."
+          }
         }
       }
     },
@@ -790,6 +1210,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nuova modalità"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuer Modus"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau mode"
           }
         }
       }
@@ -813,6 +1245,18 @@
             "state": "translated",
             "value": "Blocco attivo"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sperre aktiv"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Blocage actif"
+          }
         }
       }
     },
@@ -834,6 +1278,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Niente bloccato"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nichts gesperrt"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rien de bloqué"
           }
         }
       }
@@ -857,6 +1313,18 @@
             "state": "translated",
             "value": "Le tue app distraenti sono bloccate."
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deine Ablenkungs-Apps sind gesperrt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tes apps distrayantes sont bloquées."
+          }
         }
       }
     },
@@ -878,6 +1346,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Attiva una modalità o tieni premuto per una sessione rapida."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktiviere einen Modus oder halte gedrückt für eine Schnell-Session."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Active un mode ou maintiens appuyé pour une session rapide."
           }
         }
       }
@@ -901,6 +1381,18 @@
             "state": "translated",
             "value": "Rigido fino alle %@"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Streng bis %@"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strict jusqu'à %@"
+          }
         }
       }
     },
@@ -922,6 +1414,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Focus rapido"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schnell-Fokus"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus rapide"
           }
         }
       }
@@ -945,6 +1449,18 @@
             "state": "translated",
             "value": "Focus rapido…"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schnell-Fokus …"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Focus rapide…"
+          }
         }
       }
     },
@@ -966,6 +1482,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld minuti"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld Minuten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld minutes"
           }
         }
       }
@@ -989,6 +1517,18 @@
             "state": "translated",
             "value": "Modifica"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bearbeiten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier"
+          }
         }
       }
     },
@@ -1010,6 +1550,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Manuale"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manuell"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manuel"
           }
         }
       }
@@ -1033,6 +1585,18 @@
             "state": "translated",
             "value": "Rigido"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Streng"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strict"
+          }
         }
       }
     },
@@ -1054,6 +1618,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nuova modalità"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuer Modus"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nouveau mode"
           }
         }
       }
@@ -1077,6 +1653,18 @@
             "state": "translated",
             "value": "Modifica modalità"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modus bearbeiten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modifier le mode"
+          }
         }
       }
     },
@@ -1098,6 +1686,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nome"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom"
           }
         }
       }
@@ -1121,6 +1721,18 @@
             "state": "translated",
             "value": "App bloccate"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gesperrte Apps"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps bloquées"
+          }
         }
       }
     },
@@ -1142,6 +1754,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Scegli app e siti"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apps und Websites wählen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir apps et sites"
           }
         }
       }
@@ -1165,6 +1789,18 @@
             "state": "translated",
             "value": "%lld selezionate"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld ausgewählt"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld sélectionnées"
+          }
         }
       }
     },
@@ -1186,6 +1822,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Orario"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zeitplan"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horaire"
           }
         }
       }
@@ -1209,6 +1857,18 @@
             "state": "translated",
             "value": "Ripeti ogni settimana"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wöchentlich wiederholen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Répéter chaque semaine"
+          }
         }
       }
     },
@@ -1230,6 +1890,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dalle"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Von"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De"
           }
         }
       }
@@ -1253,6 +1925,18 @@
             "state": "translated",
             "value": "Alle"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bis"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "À"
+          }
         }
       }
     },
@@ -1274,6 +1958,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Luogo"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ort"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lieu"
           }
         }
       }
@@ -1297,6 +1993,18 @@
             "state": "translated",
             "value": "Attiva quando arrivo"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bei Ankunft aktivieren"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activer à mon arrivée"
+          }
         }
       }
     },
@@ -1318,6 +2026,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Scegli un luogo"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ort wählen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choisir un lieu"
           }
         }
       }
@@ -1341,6 +2061,18 @@
             "state": "translated",
             "value": "Modalità rigida"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Strenger Modus"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mode strict"
+          }
         }
       }
     },
@@ -1362,6 +2094,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Non potrai disattivare questa modalità finché la sessione non finisce."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du kannst diesen Modus erst ausschalten, wenn die Session vorbei ist."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu ne pourras pas désactiver ce mode avant la fin de la session."
           }
         }
       }
@@ -1385,6 +2129,18 @@
             "state": "translated",
             "value": "Elimina modalità"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modus löschen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Supprimer le mode"
+          }
         }
       }
     },
@@ -1406,6 +2162,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Annulla"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Annuler"
           }
         }
       }
@@ -1429,6 +2197,18 @@
             "state": "translated",
             "value": "Salva"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichern"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enregistrer"
+          }
         }
       }
     },
@@ -1450,6 +2230,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Luogo"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ort"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lieu"
           }
         }
       }
@@ -1473,6 +2265,18 @@
             "state": "translated",
             "value": "Nome (es. Ufficio, Biblioteca)"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (z. B. Büro, Bibliothek)"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nom (ex. Bureau, Bibliothèque)"
+          }
         }
       }
     },
@@ -1494,6 +2298,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sposta la mappa finché il pin è sul luogo."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verschiebe die Karte, bis der Pin auf dem Ort liegt."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Déplace la carte pour placer l'épingle sur le lieu."
           }
         }
       }
@@ -1517,6 +2333,18 @@
             "state": "translated",
             "value": "Il mio luogo"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mein Ort"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mon lieu"
+          }
         }
       }
     },
@@ -1538,6 +2366,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Impostazioni"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Réglages"
           }
         }
       }
@@ -1561,6 +2401,18 @@
             "state": "translated",
             "value": "Fine"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fertig"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
         }
       }
     },
@@ -1582,6 +2434,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oggi"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heute"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aujourd'hui"
           }
         }
       }
@@ -1605,6 +2469,18 @@
             "state": "translated",
             "value": "Permessi"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berechtigungen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autorisations"
+          }
         }
       }
     },
@@ -1626,6 +2502,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Posizione"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Standort"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Position"
           }
         }
       }
@@ -1649,6 +2537,18 @@
             "state": "translated",
             "value": "Sempre"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Immer"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Toujours"
+          }
         }
       }
     },
@@ -1670,6 +2570,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mentre usi l'app"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beim Verwenden"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pendant l'utilisation"
           }
         }
       }
@@ -1693,6 +2605,18 @@
             "state": "translated",
             "value": "Negato"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abgelehnt"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refusée"
+          }
         }
       }
     },
@@ -1714,6 +2638,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Non impostato"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nicht festgelegt"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Non définie"
           }
         }
       }
@@ -1737,6 +2673,18 @@
             "state": "translated",
             "value": "Apri Impostazioni iPhone"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iPhone-Einstellungen öffnen"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ouvrir les Réglages de l'iPhone"
+          }
         }
       }
     },
@@ -1758,6 +2706,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "Abbonamento"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abo"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abonnement"
           }
         }
       }
@@ -1781,6 +2741,18 @@
             "state": "translated",
             "value": "Gestisci abbonamento"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abo verwalten"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gérer l'abonnement"
+          }
         }
       }
     },
@@ -1803,6 +2775,18 @@
             "state": "translated",
             "value": "Contatta il supporto"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Support kontaktieren"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contacter le support"
+          }
         }
       }
     },
@@ -1824,6 +2808,18 @@
           "stringUnit": {
             "state": "translated",
             "value": "di schermo oggi"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bildschirmzeit heute"
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "de temps d'écran aujourd'hui"
           }
         }
       }

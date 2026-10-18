@@ -31,9 +31,9 @@ struct SettingsView: View {
                     }
                 }
                 Section {
-                    Link("settings.support", destination: URL(string: "mailto:support@basta.app")!)
-                    Link("pw.privacy", destination: URL(string: "https://basta.app/privacy")!)
-                    Link("pw.terms", destination: URL(string: "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")!)
+                    Link("settings.support", destination: URL(string: "mailto:info@zintex.dev")!)
+                    Link("pw.privacy", destination: URL(string: "https://zintex-ou.github.io/basta-legal/privacy.html")!)
+                    Link("pw.terms", destination: URL(string: "https://zintex-ou.github.io/basta-legal/terms.html")!)
                 }
             }
             .scrollContentBackground(.hidden)
