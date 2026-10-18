@@ -10,7 +10,6 @@ final class PurchaseService: ObservableObject {
     enum ProductID: String, CaseIterable {
         case weekly = "com.zintex.basta.weekly"
         case yearly = "com.zintex.basta.yearly"
-        case yearlyIntro = "com.zintex.basta.yearly.intro"   // discounted first-year offer shown on paywall
     }
 
     @Published private(set) var products: [Product] = []

@@ -4,10 +4,10 @@ import StoreKit
 /// Hard paywall, no free trial. Yearly preselected; weekly as the escape hatch.
 struct PaywallView: View {
     @EnvironmentObject var purchases: PurchaseService
-    @State private var selected: PurchaseService.ProductID = .yearlyIntro
+    @State private var selected: PurchaseService.ProductID = .yearly
     @State private var busy = false
 
-    private var yearly: Product? { purchases.product(.yearlyIntro) ?? purchases.product(.yearly) }
+    private var yearly: Product? { purchases.product(.yearly) }
     private var weekly: Product? { purchases.product(.weekly) }
 
     var body: some View {
@@ -23,8 +23,7 @@ struct PaywallView: View {
             Spacer()
 
             if let y = yearly {
-                planCard(product: y, id: y.id == PurchaseService.ProductID.yearlyIntro.rawValue ? .yearlyIntro : .yearly,
-                         title: "pw.yearly", badge: "pw.best")
+                planCard(product: y, id: .yearly, title: "pw.yearly", badge: "pw.best")
             }
             if let w = weekly {
                 planCard(product: w, id: .weekly, title: "pw.weekly", badge: nil)
