@@ -39,6 +39,7 @@ targets:
         CFBundleLocalizations: [en, es, it]
         UILaunchScreen: {}
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
+        UIRequiresFullScreen: true
         UIBackgroundModes: [location]
         NSLocationWhenInUseUsageDescription: "Basta uses your location to turn focus modes on automatically when you arrive at a place you chose, such as work or the library."
         NSLocationAlwaysAndWhenInUseUsageDescription: "Basta needs background location access so focus modes can switch on and off automatically when you enter or leave the places you chose. Your location never leaves your device."
@@ -46,6 +47,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.zintex.basta
+        TARGETED_DEVICE_FAMILY: "1"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
     dependencies:
@@ -81,6 +83,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.zintex.basta.monitor
+        TARGETED_DEVICE_FAMILY: "1"
     dependencies:
       - sdk: ManagedSettings.framework
       - sdk: DeviceActivity.framework
@@ -108,13 +111,14 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.zintex.basta.shield
+        TARGETED_DEVICE_FAMILY: "1"
     dependencies:
       - sdk: ManagedSettings.framework
       - sdk: ManagedSettingsUI.framework
       - sdk: FamilyControls.framework
 
   BastaReport:
-    type: app-extension
+    type: extensionkit-extension
     platform: iOS
     sources:
       - path: BastaReport
@@ -128,11 +132,12 @@ targets:
       path: BastaReport/Info.plist
       properties:
         CFBundleDisplayName: Basta Report
-        NSExtension:
-          NSExtensionPointIdentifier: com.apple.deviceactivityui.report-extension
+        EXAppExtensionAttributes:
+          EXExtensionPointIdentifier: com.apple.deviceactivityui.report-extension
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.zintex.basta.report
+        TARGETED_DEVICE_FAMILY: "1"
     dependencies:
       - sdk: DeviceActivity.framework
       - sdk: FamilyControls.framework
